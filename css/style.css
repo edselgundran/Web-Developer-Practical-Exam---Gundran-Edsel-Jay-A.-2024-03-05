@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+
+#car-img {
+    margin-top: 20px;
+    margin-left: 21%;
+
+}
+
+#car-img #rightcar,
+#leftcar {
+    width: 300px;
+    margin-right: 10px;
+    align-content: center;
+}
+
+#arrow {
+    margin-bottom: 122px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+#paintjobform {
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: -15px;
+}
+
+input[type="text"],
+select {
+    width: 22%;
+    padding: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #108d10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #4dfa78;
+}
+
+
+table {
+    width: 55%;
+    border-collapse: collapse;
+    margin-left: 10%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #f1dcdc;
+    text-align: center;
+}
+th {
+    background-color: #f7e2e2;
+}
