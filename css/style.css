@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
@@ -10,46 +11,93 @@ body {
     background-color: #ffffff;
 }
 
+.head {
+    position: relative; 
+    padding: 65px;
+    max-width: 1000px;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    color: #696969;
+    background-color: #cecfce;
+}
+
+.head span {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.head ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #ea6a5b;
+    width: 100%;
+    font-size: 23px;
+}
+
+.head li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.head li a{
+    color: #fff;
+}
+
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
     padding: 20px;
 }
 
 
 h1 {
+    text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
     margin-top: 2%;
-    text-align: center;
+    
     
 }
 
 h2 {
-    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10%;
+    margin-left: 13.5%;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
 
 
 #car-img {
     margin-top: 20px;
-    margin-left: 21%;
+    margin-left: 23%;
 
 }
 
 #car-img #rightcar,
 #leftcar {
+    align-content: center;
     width: 300px;
     margin-right: 10px;
-    align-content: center;
+    
 }
 
 #arrow {
-    margin-bottom: 122px;
     width: 50px;
+    margin-bottom: 122px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -58,7 +106,7 @@ h2 {
 
 #paintjobform {
     margin-bottom: 20px;
-    margin-left: 10%;
+    margin-left: 13.5%;
 }
 
 label {
@@ -79,23 +127,24 @@ select {
 
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #108d10;
+    background-color: #ea6a5b;
     color: #fff;
     border: none;
     cursor: pointer;
     width: 150px;
-    border-radius: 5px;
 }
 
 button[type="submit"]:hover {
-    background-color: #4dfa78;
+    background-color: #fff;
+    color: #ea6a5b;
+    border: 1px solid #ea6a5b;
 }
 
 
 table {
     width: 55%;
     border-collapse: collapse;
-    margin-left: 10%;
+    margin-left: 13.5%;
 }
 
 th, td {
@@ -106,4 +155,30 @@ th, td {
 }
 th {
     background-color: #f7e2e2;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.shop-performance {
+    float: right;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 11px;
+    width: 250px;
+    margin: 0;
+    margin-right: 5%;
+    margin-top: -18.5%;
+    
+    
+}
+
+.shop #shop-head {
+    background-color: #ea6a5b;
+    text-align: left;
+    width: 500px;
 }

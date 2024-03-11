@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Function to change car color
     function changeCarColor(car, color) {
         switch (color) {
-            case "black":
-                car.src = `img/black-car.png`;
+            case "default":
+                car.src = `img/default-car.png`;
                 break;
-            case "green":
-                car.src = `img/green-car.png`;
-                break;
-            case "purple":
-                car.src = `img/purple-car.png`;
+            case "blue":
+                car.src = `img/blue-car.png`;
                 break;
             case "red":
                 car.src = `img/red-car.png`;
+                break;
+            case "green":
+                car.src = `img/green-car.png`;
                 break;
             default:
                 break;
@@ -34,3 +34,4 @@ document.addEventListener("DOMContentLoaded", function() {
         changeCarColor(rightcar, targetColorSelect.value);
     });
 });
+
